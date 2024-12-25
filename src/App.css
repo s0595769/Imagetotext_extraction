@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
+
+input[type="file"] {
+  margin: 10px;
+}
+
+button {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: gray;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
+
+.result {
+  margin-top: 20px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
